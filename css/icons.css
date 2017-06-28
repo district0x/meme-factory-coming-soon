@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yhxtr5');
+  src:  url('fonts/icomoon.eot?yhxtr5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?yhxtr5') format('woff2'),
+    url('fonts/icomoon.ttf?yhxtr5') format('truetype'),
+    url('fonts/icomoon.woff?yhxtr5') format('woff'),
+    url('fonts/icomoon.svg?yhxtr5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-blob1:before {
+  content: "\e901";
+}
+.icon-blob2:before {
+  content: "\e902";
+}
+.icon-blob3:before {
+  content: "\e903";
+}
+.icon-arrow-right:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-slack:before {
+  content: "\f198";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
